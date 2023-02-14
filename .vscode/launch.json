@@ -5,10 +5,24 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "envFile": "${workspaceFolder}/.env",
             "name": "Python: Module",
             "type": "python",
             "request": "launch",
-            "module": "enter-your-module-name",
+            "module": "streamlit",
+            "justMyCode": true,
+            "args": [
+                "run",
+                "${file}"
+            ]
+        },
+        {
+            "envFile": "${workspaceFolder}/.env",
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
             "justMyCode": true
         }
     ]
