@@ -5,6 +5,7 @@ This repository serves as a small getting-started guide to using streamlit with 
 1. [Streamlit get started](https://docs.streamlit.io/library/get-started)
 2. [Folium quickstart](https://python-visualization.github.io/folium/quickstart.html)
 3. [streamlit-folium app](https://folium.streamlit.app/)
+4. [Tim's page for setting up in Linux](https://github.com/RotterdamLogisticsLab/MinimalStreamlitExample)
 
 But we will first focus on setting everything up, i.e., installing everything locally in a conda virtual environment and connecting that to a databricks PoR cluster in order to work with remote data.
 
