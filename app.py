@@ -104,6 +104,12 @@ Note the `reset_index()` call.
 """
 )
 
+st.markdown(
+    """
+### :red[Please don't use the] *:red[updating the code via a text area]* :red[trick like the one below in production code. People can execute arbitrary code. DANGER!!]
+"""
+)
+
 c = alt.Chart(chart_data.reset_index()).mark_line().encode(x="index", y="a")
 default_code = (
     'c = alt.Chart(chart_data.reset_index()).mark_line().encode(x="index", y="a")'
